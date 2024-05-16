@@ -1,0 +1,72 @@
+header {
+    font-family: "great vibes";
+    padding: 1em 0;
+    margin: 0;
+    text-align: center;
+    color: blueviolet;
+    background: linear-gradient(to bottom, #000, lightgray);
+    padding: 1em;
+    font-size: 30px;
+    text-shadow: 1px 1px 20px #000;
+}
+
+main {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pai {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border-style: dashed;
+    box-shadow: 1px 1px 13px #000;
+}
+
+div {
+    border-radius: 20px;
+    background-color: lightblue;
+}
+
+body {
+    font-size: 25px;
+    margin: 0;
+    background-color: lightgray;
+}
+.texto{
+    width: 600px;
+    text-align: center;
+}
+.filhos{
+    border-radius: 20px;
+    background-color: ghostwhite;
+    box-shadow: 1px 1px 2px #000;
+}
+h2{
+    color: blue;
+    text-shadow: 1px 1px 10px #fff;
+    text-align: center;
+    font-family: "Pacifico";
+}
+
+.imagem{
+    margin-left: 30px;
+}
+.imagem img {
+    box-shadow: 1px 1px 4px #000;
+    margin-left: 100px;
+    width: 200px;
+}
+
+.imagem img:hover {
+    width: 600px;
+}
+
+.pai h1{
+    color: red;
+    text-shadow: 1px 1px 2px #000;
+}
